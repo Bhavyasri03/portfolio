@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhavya | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav>
+    <h2 class="logo">Welcome to my World ✨</h2>
+    <ul>
+      <li><a href="#" onclick="showSection('home')">Home</a></li>
+      <li><a href="#" onclick="showSection('about')">About</a></li>
+      <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+      <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+      <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ================= HOME ================= -->
+  <section id="home" class="page active hero">
+  <div class="hero-content">
+    <h1>Lakshmi Durga Bhavya Sri Dara</h1>
+    <p>Frontend Developer</p>
+
+    <div class="buttons">
+  <button class="btn" onclick="showSection('certificates')">
+    View Certificates
+  </button>
+
+  <a href="assets/resume/Bhavyaaresume.pdf" class="btn outline" download>
+    Download Resume
+  </a>
+</div>
+  </div>
+</section>
+<!-- ================= CERTIFICATES ================= -->
+<section id="certificates" class="page">
+  <h2>Certificates</h2>
+
+  <div class="certificates-grid">
+
+    <div class="certificate-card">
+      <h4>AI & ML Internship</h4>
+      <p>Taras System and Solutions</p>
+      <a href="assets/certificates/aiml-internship.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+    <div class="certificate-card">
+      <h4>WEB DEVELOPMENT</h4>
+      <p>Flagship Collaborations and Technologies</p>
+      <a href="assets/certificates/webdevelopment-internship.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+    <div class="certificate-card">
+      <h4>AI Assosiate<h4>
+      <p>Salesforce</p>
+      <a href="assets/certificates/AI Assosiate.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <div class="certificate-card">
+      <h4>Cyber Security</h4>
+      <p>Capgemini</p>
+      <a href="assets/certificates/CYBER CAPGEMINI.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+    <div class="certificate-card">
+  <h4>Salesforce Developer</h4>
+  <p>Salesforce</p>
+  <a href="assets/certificates/SALESFORCE DEVELOPER.pdf" target="_blank">
+    View Certificate
+  </a>
+</div>
+
+<div class="certificate-card">
+  <h4>Java Fullstack</h4>
+  <p>Java Institute</p>
+  <a href="assets/certificates/JAVA FULLSTACK.pdf" target="_blank">
+    View Certificate
+  </a>
+</div>
+
+<div class="certificate-card">
+  <h4>AWS Cloud</h4>
+  <p>Amazon Web Services</p>
+  <a href="assets/certificates/AWS CLOUD.pdf" target="_blank">
+    View Certificate
+  </a>
+</div>
+
+<div class="certificate-card">
+  <h4>Web Design</h4>
+  <p>Infosys Springboard</p>
+  <a href="assets/certificates/webdesigningT.pdf" target="_blank">
+    View Certificate
+  </a>
+</div>
+
+  </div>
+</section>
+
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="page">
+    <h2>About Me</h2>
+    <p style="text-align: justify;">
+      I am a Computer Science Engineering graduate with a strong interest in Software Development, 
+      especially in frontend development and artificial intelligence. I enjoy building clean, 
+      user-friendly web applications and intelligent systems that solve real-world problems. 
+      I also have knowledge of Power BI for data visualization and basic networking concepts such as IP configuration,
+       DNS, and network troubleshooting. 
+      I am eager to apply my technical skills and continue learning in a professional environment.
+      <br><br>
+      I have hands-on experience through an AI & ML internship at Taras System and
+      Solutions, where I worked on practical machine learning and computer vision
+      projects. I have also developed multiple web and AI-based projects.
+      <br><br>
+      I am a quick learner, passionate about technology, and continuously working on
+      improving my skills to grow as a software professional.
+    </p>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="page">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>Python</div>
+      <div>Java (SE)</div>
+      <div>MySQL</div>
+      <div>Generative AI</div>
+      <div>Power BI</div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="page">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Hand Gesture Virtual Painter</h3>
+      <p>
+        AI-based application that allows users to draw on screen using real-time
+        hand gesture recognition via webcam.
+      </p>
+      <span>Python | OpenCV | MediaPipe</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Evolution of Smart Classroom using IoT</h3>
+      <p>
+        IoT-based smart classroom system to automate attendance, monitor
+        environmental conditions, and improve learning experiences.
+      </p>
+      <span>Python | OpenCV | CNN | Raspberry Pi | GSM</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Food Munch – Online Food Ordering System</h3>
+      <p>
+        Web application for browsing food items, placing orders, and managing delivery.
+      </p>
+      <span>HTML | CSS | JavaScript | Servlets</span>
+    </div>
+    <div class="project-card">
+  <h3>Windows Troubleshooting and Network Diagnostics Lab</h3>
+  <p>
+    Performed practical Windows troubleshooting including user account creation, 
+    IP configuration, DNS cache clearing, and network connectivity testing using
+    Command Prompt tools. Diagnosed and resolved common system and internet issues 
+    similar to Service Desk L1 support tasks.
+  </p>
+  <span>Windows OS | Command Prompt | Networking | Troubleshooting</span>
+</div>
+  </section>
+
+
+  <!-- ================= CONTACT ================= -->
+<section id="contact" class="page">
+  <h2>Contact Me</h2>
+
+  <div class="contact-box">
+    <p>
+      <strong>Email</strong><br>
+      <a href="mailto:darabhavyasri@gmail.com">
+        darabhavyasri@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <strong>Profiles</strong><br>
+      <a href="https://github.com/Bhavyasri03" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/lakshmi-durga-bhavya-sri-dara-1a8a71252/" target="_blank">LinkedIn</a>
+    </p>
+  </div>
+</section>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>© 2026 Bhavya. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
